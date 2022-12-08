@@ -8,11 +8,11 @@ export default function Home() {
 
   const [data, setData] = useState("")
 
+
   return (
     <>
       <Header />
       <Page>
-        <input className='search' type='text' placeholder='Searching' />
         <List />
       </Page>
     </>
